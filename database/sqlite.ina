@@ -1,0 +1,25 @@
+# Kode by Billal Fauzan dari Haris Hasanudin
+# Dibuat pada tanggal: 12 agustus 2020
+
+file = "db/contoh1.db"
+
+konek = sqlite_koneksi file
+hasil = sqlite_hasil konek, "SELECT * FROM pengguna"
+
+isi = sqlite_isidata hasil, 0
+panjangKolum = panjang isi
+
+id = isi[0]
+nama = isi[1]
+email = isi[2]
+
+tulis "\t== Isi dari data ==\n"
+tulis "id=", id, "\n"
+tulis "nama=", nama, "\n"
+tulis "email=", email, "\n"
+tulis "panjang kolom=", panjangKolum, "\n"
+tulis "jumlah data=", sqlite_total hasil, "\n"
+
+tutup konek
+
+tamat
