@@ -1,0 +1,8 @@
+untuk (i = 10; i >= 1; i = i-1) ulang
+	tulis "\rCountdown: ", i, "  "
+	tunggu 1
+lagi
+
+tulis "\n"
+tulis "Selesai\n"
+tamat
