@@ -1,0 +1,12 @@
+########################################
+## Kode ini dibuat oleh Billal Fauzan ##
+############## Jam digital #############
+
+a = 0
+selagi (a < 1) lakukan
+	wkt = waktu
+	sekarang[] = pisah wkt, " "
+	tulis "\r", sekarang[1] ## menampilkan waktu
+baliklagi # mengulangi
+
+tamat

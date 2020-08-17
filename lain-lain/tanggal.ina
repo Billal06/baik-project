@@ -1,0 +1,5 @@
+## Kode ini dibuat oleh Billal Fauzan ##
+
+mkt = waktu
+sekarang[] = pisah mkt, " "
+tulis "Sekarang tanggal: ", sekarang[0], "\n"

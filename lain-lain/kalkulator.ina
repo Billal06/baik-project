@@ -1,0 +1,34 @@
+#########################################
+## Kode ini dibuat oleh Billal Fauzan  ##
+##                                     ##
+######### Kalkulator sederhana ##########
+
+## Berfungsi untuk menghapus layar
+perintah "clear"
+
+## Menampilkan list
+tulis "1. Pertambahan \n"
+tulis "2. Pengurangan \n"
+tulis "3. Pembagian \n"
+
+## Memilih
+tulis "Masukan pilihan -> "
+masuk pil
+tulis "Bilangan 1: "
+masuk bil1
+tulis "Bilangan 2: "
+masuk bil2
+
+## Kondisi
+kalau (pil == 1) maka
+	hasil = bil1 + bil2 # menambahkan bilangan 1 dengan bilangan 2
+	tulis "Hasil: ", hasil, "\n" # menampilkan hasil, \n berfungsi untuk newline (garis baru)
+lainnya kalau (pil == 2) maka
+	hasil = bil1 - bil2 # mengurangi bilangan 1 dengan bilangan 2
+	tulis "Hasil: ", hasil, "\n" # menampilan hasil, \n berfungsi untuk newline (garis baru)
+lainnya kalau (pil == 3) maka
+	hasil = bil1 / bil2 # membagi bilangan 1 dengan bilangan 2
+	tulis "Hasil: ", hasil, "\n" # menampilkan hasil, \n berfungsi untuk newline (garis baru)
+lainnya
+	tulis "Pilihan anda tidak ditemukan\n" # menampilkan kata-kata jika salah memilih
+akhirkalau
