@@ -1,0 +1,35 @@
+&menu()
+&pesanan()
+
+tamat
+
+fungsi menu() {
+	tulis "1. Ayam goreng Rp 9.000,-\n"
+	tulis "2. Nasi kuning Rp 3.000,-\n"
+}
+
+fungsi pesanan() {
+	tulis "Pilih pesanan: "
+	masuk pesan
+	tulis "Uang: "
+	masuk uang
+	kalau (pesan == 1) maka
+		harga = 9000
+		kembalian = harga - uang
+		kalau (uang > harga) maka
+			tulis "Kembalian: ", kembalian, "\n"
+		lainnya
+			tulis "Uang anda tidak mencukupi \n"
+		akhirkalau 
+	lainnya kalau (pesan == 2) maka
+		harga = 3000
+		kembalian = harga - uang
+		kalau (uang > harga) maka
+			tulis "Kembalian: " , kembalian, "\n"
+		lainnya
+			tulis "Uang anda tidak mencukupi \n"
+		akhirkalau	
+	lainnya
+		tulis "Pesanan anda tidak ada \n"
+	akhirkalau
+}
