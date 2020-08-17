@@ -1,0 +1,9 @@
+## Kode By Billal Fauzan dari bpk Haris Hasanudin
+## DIbuat pada tanggal: 12 agustus 2020
+
+berhenti = 10
+untuk (i = 0; i < berhenti; i=i+1) ulang
+	tulis "Perulangan ke-", i, "\n"
+lagi
+
+tamat

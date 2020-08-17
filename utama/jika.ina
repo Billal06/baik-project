@@ -1,0 +1,16 @@
+# kode by Billal Fauzan dari bpk Haris Hasanudin
+# Dibuat pada tanggal: 12 agustus 2020
+
+nol = 0
+satu = 1
+cekBukan = bukan nol # cek jika bukan angka 0 maka hasil nya 1 (benar) jika 0 (salah)
+
+tulis "1 (benar), 0 (salah)\n"
+
+jika nol == satu maka
+	tulis "Jika nol = satu: ", nol == satu, "\n"
+lainnya jika nol == nol maka
+	tulis "Jika nol = nol: ", nol == nol, "\n"
+akhirjika
+
+tamat

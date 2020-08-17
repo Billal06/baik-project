@@ -1,0 +1,16 @@
+# Kode by Billal Fauzan dari bpk Haris Hasanudin
+# Dibuat pada tanggal: 12 agustus 2020
+
+tulis "Jika kamu memilih 0 maka akan keluar benar, jika kamu memilih 1 maka akan keluar salah\n"
+tulis "Masukan: "
+masuk pil
+
+kalau pil == 0 maka
+	tulis "Benar"
+lainnya kalau pil == 1 maka
+	tulis "Salah"
+lainnya
+	tulis "Silahkan pilih 0-1"
+akhirkalau
+
+tulis "\n"

@@ -1,0 +1,11 @@
+tulis "Masukan nama anda: "
+masuk nama
+tulis "Masukan umur anda: "
+masuk umur
+tulis "Anda tinggal dimana? "
+masuk tempat
+
+tulis "---------------------- \n"
+tulis "Nama anda: ", nama, "\n"
+tulis "Umur anda: ", umur, "\n"
+tulis "Tempat tinggal: ", tempat, "\n"

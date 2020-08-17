@@ -1,0 +1,5 @@
+huruf = "Aku anak indonesia"
+
+length = panjang huruf
+
+tulis huruf, " = ", length, "\n"

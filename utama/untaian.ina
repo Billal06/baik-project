@@ -1,0 +1,18 @@
+### Seperti array pada umumnya, untuk mengambil isi array maka di mulai dari angka 0 ###
+
+## kode by Billal, dari bpk Haris Hasanudin
+## Dibuat pada tanggal: 12 agustus 2020
+
+## Untaian
+untaian array[2]
+array[0] = "Billal" # mengisi array ke-0
+array[1] = "Fauzan" # mengisi array ke-1
+
+## Mengambil isi untaian
+tulis "array[0]=", array[0], "\n"
+tulis "array[1]=", array[1], "\n"
+
+jumlah = panjang array # cek panjang untaian
+
+tulis "Panjang dari untaian: " , jumlah + 1, "\n"
+tamat
